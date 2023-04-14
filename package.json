@@ -1,0 +1,25 @@
+{
+  "name": "stremio-sdk-modules-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "querystring": "^0.2.1",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "async": "^3.2.4",
+    "express-zip": "^3.0.0",
+    "fs": "0.0.1-security",
+    "serve-index": "^1.9.1",
+    "swagger-stats": "^0.99.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
